@@ -21,7 +21,8 @@ export default function About() {
 
           {/* Right - Image placeholder with students */}
           <div className="flex-1 w-full">
-            <div className="relative rounded-2xl overflow-hidden bg-gray-100 aspect-[4/3]">
+            <img src="/smart-learn.svg" alt="" />
+            {/* <div className="relative rounded-2xl overflow-hidden bg-gray-100 aspect-[4/3]">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -32,7 +33,7 @@ export default function About() {
                   <p className="text-gray-500 text-sm font-medium">Students taking CBT exams</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

@@ -22,8 +22,8 @@ export default function Hero() {
 
         {/* Dashboard Preview */}
         <div className="relative max-w-4xl mx-auto">
-          <div className="border-2 border-primary/20 rounded-2xl overflow-hidden shadow-2xl bg-white">
-            {/* Browser bar */}
+          <img src="/hero.svg" alt="hero" />
+          {/* <div className="border-2 border-primary/20 rounded-2xl overflow-hidden shadow-2xl bg-white">
             <div className="bg-gray-50 border-b border-gray-200 px-4 py-3 flex items-center gap-2">
               <div className="flex gap-1.5">
                 <div className="w-3 h-3 rounded-full bg-red-400" />
@@ -35,9 +35,7 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Dashboard UI */}
             <div className="flex text-xs min-h-[400px]">
-              {/* Sidebar */}
               <div className="w-36 sm:w-44 bg-white border-r border-gray-100 p-3 flex flex-col gap-1 shrink-0">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-6 h-6 bg-primary rounded-md flex items-center justify-center">
@@ -53,9 +51,7 @@ export default function Hero() {
                 ))}
               </div>
 
-              {/* Main content */}
               <div className="flex-1 p-4 bg-gray-50 overflow-hidden">
-                {/* Top bar */}
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <p className="text-[10px] text-gray-400">Hello,</p>
@@ -70,7 +66,6 @@ export default function Hero() {
                   </div>
                 </div>
 
-                {/* Stats row */}
                 <div className="grid grid-cols-4 gap-2 mb-4">
                   {[
                     { icon: '📋', val: '4', label: 'Upcoming Exams', color: 'bg-blue-50 text-blue-600' },
@@ -85,7 +80,6 @@ export default function Hero() {
                   ))}
                 </div>
 
-                {/* Exam Card */}
                 <div className="bg-white rounded-xl p-3 shadow-sm mb-3">
                   <p className="text-[10px] text-gray-400 mb-2 font-medium">Upcoming Exam</p>
                   <p className="font-bold text-navy text-sm text-primary">Mid Term Test</p>
@@ -97,7 +91,6 @@ export default function Hero() {
                   </div>
                 </div>
 
-                {/* Quick Actions */}
                 <div>
                   <p className="text-[10px] text-gray-400 mb-2 font-medium">Quick Actions</p>
                   <div className="grid grid-cols-4 gap-1.5">
@@ -112,9 +105,8 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Decorative blobs */}
           <div className="absolute -top-10 -left-10 w-32 h-32 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" /> */}
         </div>
       </div>
     </section>

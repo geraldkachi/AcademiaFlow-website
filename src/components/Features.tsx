@@ -10,6 +10,7 @@ const features = [
       { heading: 'Real Time Monitoring', desc: 'Track student progress and exam activity live during assessments.' },
       { heading: 'Question Randomization', desc: 'Shuffle questions and options automatically to prevent cheating.' },
     ],
+    icon: '/cbt-exam.svg',
     mockup: 'exam',
   },
   {
