@@ -2,13 +2,13 @@ export function CTA() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
+        <div className="bg-[#F3FFF9] rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
           <div className="flex flex-col lg:flex-row items-center gap-8 p-10 lg:p-12">
-            <div className="flex-1 text-center lg:text-left">
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-navy mb-4 leading-tight">
+            <div className="flex-1 text-center flex flex-col items-center  lg:text-left">
+              <h2 className="text-3xl text-center sm:text-4xl font-extrabold text-navy mb-4 leading-tight">
                 Ready to Transform<br />Your Institution?
               </h2>
-              <p className="text-gray-500 text-sm mb-6">
+              <p className="text-gray-500 text-sm mb-6 text-center">
                 Join thousands of educators who trust AcademiaFlow for their examination management needs.
               </p>
               <a href="#pricing" className="inline-block bg-primary text-white font-semibold px-6 py-3 rounded-xl hover:bg-primary-dark transition-colors text-sm">
@@ -17,28 +17,7 @@ export function CTA() {
             </div>
             {/* Mini dashboard preview */}
             <div className="flex-1 w-full max-w-sm">
-              <div className="bg-gray-50 rounded-2xl border border-gray-200 p-3 text-xs">
-                <div className="bg-white rounded-xl p-3 shadow-sm">
-                  <div className="flex items-center gap-2 mb-3">
-                    <div className="w-5 h-5 bg-primary rounded flex items-center justify-center">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-                    </div>
-                    <span className="font-bold text-navy text-sm">AcademiaFlow</span>
-                  </div>
-                  <div className="grid grid-cols-4 gap-1.5 mb-3">
-                    {['4 Exams', '5 Tasks', '12 Subjects', '91% Avg'].map((s) => (
-                      <div key={s} className="bg-primary/5 rounded-lg p-1.5 text-center">
-                        <p className="text-[9px] text-primary font-semibold leading-tight">{s}</p>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="bg-primary/5 rounded-lg p-2">
-                    <p className="text-[10px] text-gray-400">Next Exam</p>
-                    <p className="font-bold text-primary text-sm">Mid Term Test</p>
-                    <p className="text-[10px] text-gray-500">Chemistry • 20th Jan 2026</p>
-                  </div>
-                </div>
-              </div>
+              <img src="/monitor.svg" alt="" />
             </div>
           </div>
         </div>
