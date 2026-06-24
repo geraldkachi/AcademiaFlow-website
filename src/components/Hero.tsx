@@ -4,10 +4,10 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero text */}
         <div className="text-center max-w-2xl mx-auto mb-10">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-navy leading-tight mb-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#334960] leading-tight mb-4">
             Revolutionizing<br />Academic Assessment
           </h1>
-          <p className="text-gray-500 text-base sm:text-lg mb-8 leading-relaxed">
+          <p className="text-[#334960] text-base sm:text-lg mb-8 leading-relaxed">
             AcademiaFlow streamlines academic assessments, automates grading, and delivers results through a secure platform.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
